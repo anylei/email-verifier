@@ -67,3 +67,7 @@ func updateDisposableDomains(source string) error {
 	}
 	return nil
 }
+
+func UpdateDisposableDomains() error {
+	return updateDisposableDomains(disposableDataURL)
+}
